@@ -37,7 +37,7 @@ include 'DBconn.php';
                 </ul>
             </li>
             <li class="btn-exit">
-                <a href="login_Admin.php" target="_blank" rel="noopener noreferrer">Logout</a>
+                <a href="loginAdmin.php" target="_blank" rel="noopener noreferrer">Logout</a>
             </li>
         </ul>
     </nav>
