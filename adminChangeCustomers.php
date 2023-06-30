@@ -86,7 +86,7 @@
     <?php
         if(isset($_POST['approving'])){
                 $valueUser = $_POST['values'];
-                $query = mysqli_query($con,"UPDATE tbluser SET user_status = 'approved' WHERE userID = '$valueUser'");
+                $query = mysqli_query($con,"UPDATE tbluser SET user_status = 'approved' WHERE user_id= '$valueUser'");
                 
         }
 
